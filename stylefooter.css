@@ -11,6 +11,28 @@ footer {
 }
 
 a{
-    color: gold;
+    color: red;
     text-decoration: none;
 }
+
+.fa-brands {
+    margin: 0 5px;
+    transition: transform 0.3s, color 0.3s;
+    font-size: 30px;
+    color: red;
+}
+
+.facebook i {
+    color: #3b5998;
+    font-size: 24px;
+}
+
+.facebook i:hover {
+    color: #2d4373;
+    transform: scale(1.2);
+}
+
+
+
+
+

@@ -1,11 +1,14 @@
-<?php?>
+
+
+    <link rel="stylesheet" href="stylehead.css">
+
 
 <header>
     <div class="header-container">
         <!-- Left: Account Icon -->
         <div class="header-left">
             <a href="toursss.php">
-                <img src="logo.png" alt="Website Logo" class="logo">
+                <img src="logo1.png" alt="Website Logo" class="logo">
             </a>
         </div>
         
@@ -18,7 +21,7 @@
         <!-- Right: Logo -->
         <div class="header-right">
             <a href="sign.php">
-                <img src="account.png" alt="Account" class="account-icon">
+              <i class="bi bi-person-circle" id="account"></i>
             </a>
         </div>
     </div>
