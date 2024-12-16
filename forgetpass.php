@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 // (Optional) Save the updated user array back to the file
                 $user_data = "<?php\n\$user = " . var_export($user, true) . ";\n?>";
-                file_put_contents('user.php', $user_data);
+                file_put_contents('users.php', $user_data);
                 echo"<!DOCTYPE html>
                 <html lang='en'>
                 <head>
